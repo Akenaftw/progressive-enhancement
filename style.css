@@ -1,13 +1,18 @@
-[attribute] {
+body {
+    background: linear-gradient(90deg, rgb(207, 160, 217), rgb(176, 165, 195));
+    width: 90%;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.good {
+    color: green;
     font-style: italic;
 }
 
-[attribute=good] {
-    color: green;
-}
-
-[attribute=bad] {
+.bad {
     color: red;
+    font-style: italic;
 }
 
 .villager {
@@ -19,7 +24,7 @@
 }
 
 p {
-    font-family: Serif;
+    font-size: 12px;
     word-spacing: 1em;
     color: #2d0202;
 }
@@ -49,13 +54,9 @@ a:hover {
 
 a:visited {
     color: red;
+    font-family: 'Open Sans', sans-serif;
 }
 
-body {
-    background: linear-gradient(90deg, rgb(207, 160, 217), rgb(176, 165, 195));
-    width: 90%;
-    margin: auto;
-}
 
 header > h1 {
     background-color: yellow;
@@ -80,8 +81,9 @@ tr:nth-child(odd) {
 Header > p {
     font-weight: bold;
 }
-img{
-    float:left
+
+img {
+    float: left
 }
 
 
