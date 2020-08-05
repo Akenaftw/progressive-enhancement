@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(90deg, rgb(207, 160, 217), rgb(176, 165, 195));
+    background: linear-gradient(90deg, rgb(144, 45, 165), rgb(50, 13, 107));
     width: 90%;
     margin: auto;
     font-family: 'Open Sans', sans-serif;
@@ -35,10 +35,8 @@ q {
     font-size: 160%;
     background-color: grey;
     display: block;
-    border: dashed 3px;
-    border-top: hidden;
-    border-bottom: hidden;
-    border-right: hidden;
+    border: 3px hidden;
+    border-left-style: dashed;
     padding: 30px;
     font-style: italic;
 }
