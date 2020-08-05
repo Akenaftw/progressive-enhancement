@@ -1,16 +1,37 @@
-p{
+[attribute] {
+    font-style: italic;
+}
+
+[attribute=good] {
+    color: green;
+}
+
+[attribute=bad] {
+    color: red;
+}
+
+.villager {
+    border-color: red;
+}
+
+.farmer {
+    border-color: green;
+}
+
+p {
     font-family: Serif;
     word-spacing: 1em;
-    color: #2d0202;}
+    color: #2d0202;
+}
 
-q{
+q {
     width: 50%;
     margin: 80px auto;
     font-size: 160%;
     background-color: grey;
     display: block;
-    border:dashed 3px;
-    border-top:hidden;
+    border: dashed 3px;
+    border-top: hidden;
     border-bottom: hidden;
     border-right: hidden;
     padding: 30px;
@@ -18,19 +39,51 @@ q{
 }
 
 
-a:link{
+a:link {
     color: blue;
 }
-a:hover{
+
+a:hover {
     color: green;
 }
-a:visited{
+
+a:visited {
     color: red;
 }
 
-body{
-    background:linear-gradient(90deg, rgb(207, 160, 217), rgb(176, 165, 195));
+body {
+    background: linear-gradient(90deg, rgb(207, 160, 217), rgb(176, 165, 195));
     width: 90%;
     margin: auto;
-
 }
+
+header > h1 {
+    background-color: yellow;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: grey;
+}
+
+Header > p {
+    font-weight: bold;
+}
+img{
+    float:left
+}
+
+
+
+
